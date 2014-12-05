@@ -16,6 +16,7 @@
 		E923FF6E1A2F76C500EC744B /* iSpendd2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E923FF6D1A2F76C500EC744B /* iSpendd2Tests.m */; };
 		E9D32C701A30CB4C00FDE18F /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D32C6F1A30CB4C00FDE18F /* User.m */; };
 		E9D32C731A30E4A800FDE18F /* ShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D32C721A30E4A800FDE18F /* ShowViewController.m */; };
+		E9DA993F1A3223C2001EE9CF /* UsersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9DA993E1A3223C2001EE9CF /* UsersViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,8 @@
 		E9D32C6F1A30CB4C00FDE18F /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 		E9D32C711A30E4A800FDE18F /* ShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowViewController.h; sourceTree = "<group>"; };
 		E9D32C721A30E4A800FDE18F /* ShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowViewController.m; sourceTree = "<group>"; };
+		E9DA993D1A3223C2001EE9CF /* UsersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UsersViewController.h; sourceTree = "<group>"; };
+		E9DA993E1A3223C2001EE9CF /* UsersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UsersViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +140,8 @@
 		E9D32C6D1A30CABB00FDE18F /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				E9DA993D1A3223C2001EE9CF /* UsersViewController.h */,
+				E9DA993E1A3223C2001EE9CF /* UsersViewController.m */,
 				E9D32C711A30E4A800FDE18F /* ShowViewController.h */,
 				E9D32C721A30E4A800FDE18F /* ShowViewController.m */,
 				E923FF581A2F76C500EC744B /* ViewController.h */,
@@ -248,6 +253,7 @@
 				E9D32C701A30CB4C00FDE18F /* User.m in Sources */,
 				E9D32C731A30E4A800FDE18F /* ShowViewController.m in Sources */,
 				E923FF5A1A2F76C500EC744B /* ViewController.m in Sources */,
+				E9DA993F1A3223C2001EE9CF /* UsersViewController.m in Sources */,
 				E923FF571A2F76C500EC744B /* AppDelegate.m in Sources */,
 				E923FF541A2F76C500EC744B /* main.m in Sources */,
 			);
